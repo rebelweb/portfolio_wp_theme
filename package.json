@@ -2,10 +2,17 @@
   "name": "portfolio_theme",
   "version": "1.0.0",
   "description": "A wordpress theme for developers",
-  "main": "app.js",
+  "main": "webpack.config.js",
   "scripts": {
+    "build": "node_modules/.bin/webpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Condron",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.24.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
 }
