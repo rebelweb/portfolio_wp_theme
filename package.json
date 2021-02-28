@@ -1,0 +1,11 @@
+{
+  "name": "portfolio_theme",
+  "version": "1.0.0",
+  "description": "A wordpress theme for developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Condron",
+  "license": "MIT"
+}
