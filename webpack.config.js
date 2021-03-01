@@ -4,7 +4,7 @@ module.exports = {
     mode: "production",
     entry: './src/app.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'assets'),
         filename: 'bundle.js'
     },
     module: {
@@ -25,10 +25,6 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ]
-            },
-            {
-                test: /\.php$/i,
-                use: 'file-loader'
             }
         ]
     }
