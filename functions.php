@@ -8,3 +8,7 @@ function portfolio_register_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'portfolio_register_styles');
+
+function portfolio_base_path() {
+    return esc_url(home_url('/'));
+}
